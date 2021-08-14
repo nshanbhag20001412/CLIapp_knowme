@@ -19,14 +19,26 @@ var highScores = [
 var questions = [{
   question: "Where do I live? ",
   answer: "Pune"
-}, {
+}, 
+{
   question: "My favorite food is? ",
   answer: "Pizza"
 },
 {
   question: "Whats my instagram id? ",
   answer: "__boomchikiwawa____"
-}];
+},
+
+{
+  question: "Whats my age? ",
+  answer: "20"
+},
+
+{
+  question: "Whats my favourite Color? ",
+  answer: "black"
+},
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
